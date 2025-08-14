@@ -1,4 +1,4 @@
-package dto.request.create_user;
+package dto.create_user.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
@@ -13,12 +13,13 @@ import lombok.NoArgsConstructor;
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 public class CreateUserRequest {
 
-    private String email;
+    private int id;
+    private String username;
     private String firstName;
-    private Long id;
     private String lastName;
+    private String email;
     private String password;
     private String phone;
-    private Long userStatus;
-    private String username;
+    private int userStatus;
+
 }

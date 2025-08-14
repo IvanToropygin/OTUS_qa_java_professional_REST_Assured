@@ -1,4 +1,4 @@
-package dto.response.create_user;
+package dto.create_user.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
